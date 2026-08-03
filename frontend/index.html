@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI-Driven Digital Growth Platform</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <div class="container navbar">
+      <div class="logo">BizGrowth AI</div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#analysis">Analysis</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#referral">Referral</a>
+        <a href="#competitor">Competitor</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    
+    <!-------------------Home-------------------------->
+
+    <section id="home">
+      <div class="container hero">
+        <div>
+          <h1>AI-Driven Digital Growth Platform</h1>
+          <p>Help business owners understand their challenges, get AI-powered recommendations, check pricing transparently, and grow with website + digital marketing solutions.</p>
+          <div class="btn-group">
+            <a href="#analysis" class="btn btn-primary">Get Free Analysis</a>
+            <a href="https://wa.me/919876543210" target="_blank" class="btn btn-secondary">Talk on WhatsApp</a>
+          </div>
+        </div>
+        <div class="mockup">
+          <div class="mock-card">
+            <strong>Business Growth Dashboard</strong>
+            <p>Website leads: +38%</p>
+          </div>
+          <div class="mock-card">
+            <strong>AI Analysis</strong>
+            <p>Suggested solution: Website + SEO + Ads</p>
+          </div>
+          <div class="mock-card">
+            <strong>Referral Earnings</strong>
+            <p>Commission per sale: ₹1,000</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------Analysis-------------------------------->
+
+ <section id="analysis">
+  <div class="container">
+    <div class="section-title">
+      <h2>Customer Pain-Point Analysis</h2>
+      <p>Fill the form below to get personalized business growth recommendations.</p>
+    </div>
+
+    <div class="grid-2">
+      <!-- Form Input Card -->
+      <div class="card">
+        <form id="analysisForm" class="analysis-form">
+          
+          <!-- Business Type Dropdown -->
+          <div class="form-group">
+            <label for="businessType">Business type</label>
+            <select id="businessType" required>
+              <option value="" disabled selected hidden>e.g. Saree Shop</option>
+              <option value="saree">Saree & Ethnic Wear Shop</option>
+              <option value="clothing">Retail Clothing Store</option>
+              <option value="jewelry">Jewelry & Accessories</option>
+              <option value="grocery">Grocery / Supermarket</option>
+              <option value="restaurant">Restaurant & Cafe</option>
+              <option value="salon">Beauty & Salon</option>
+              <option value="other">Other Retail Business</option>
+            </select>
+          </div>
+
+          <!-- Monthly Revenue Dropdown -->
+          <div class="form-group">
+            <label for="monthlySales">Monthly revenue</label>
+            <select id="monthlySales" required>
+              <option value="" disabled selected hidden>Select a range</option>
+              <option value="under1">Below ₹1 lakh</option>
+              <option value="1to5">₹1 lakh - ₹5 lakh</option>
+              <option value="5to10">₹5 lakh - ₹10 lakh</option>
+              <option value="above10">Above ₹10 lakh</option>
+            </select>
+          </div>
+
+          <!-- Top Challenges (Radio Options Grid) -->
+          <div class="form-group">
+            <label>Top challenges</label>
+            <div class="challenges-grid">
+              
+              <div class="challenge-option">
+                <input type="radio" id="ch1" name="challenge" value="low_walkins" required />
+                <label for="ch1" class="challenge-label">
+                  <span class="custom-radio"></span>
+                  Low walk-ins
+                </label>
+              </div>
+
+              <div class="challenge-option">
+                <input type="radio" id="ch2" name="challenge" value="no_online_presence" />
+                <label for="ch2" class="challenge-label">
+                  <span class="custom-radio"></span>
+                  No online presence
+                </label>
+              </div>
+
+              <div class="challenge-option">
+                <input type="radio" id="ch3" name="challenge" value="high_ad_cost" />
+                <label for="ch3" class="challenge-label">
+                  <span class="custom-radio"></span>
+                  High advertising cost
+                </label>
+              </div>
+
+              <div class="challenge-option">
+                <input type="radio" id="ch4" name="challenge" value="competitor_pressure" />
+                <label for="ch4" class="challenge-label">
+                  <span class="custom-radio"></span>
+                  Competitor pressure
+                </label>
+              </div>
+
+              <div class="challenge-option">
+                <input type="radio" id="ch5" name="challenge" value="weak_repeat_customers" />
+                <label for="ch5" class="challenge-label">
+                  <span class="custom-radio"></span>
+                  Weak repeat customers
+                </label>
+              </div>
+
+              <div class="challenge-option">
+                <input type="radio" id="ch6" name="challenge" value="no_whatsapp_catalog" />
+                <label for="ch6" class="challenge-label">
+                  <span class="custom-radio"></span>
+                  No WhatsApp / catalog ordering
+                </label>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Shop Name Input -->
+          <div class="form-group">
+            <label for="businessName">Shop name (optional)</label>
+            <input type="text" id="businessName" placeholder="e.g. Lakshmi Silk House" />
+          </div>
+
+          <!-- AI Button -->
+          <button type="submit" class="btn btn-primary btn-ai">
+            <svg class="ai-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L14.5 9.5L22 12L14.5 14.5L12 22L9.5 14.5L2 12L9.5 9.5L12 2Z" fill="currentColor"/>
+            </svg>
+            Analyze with AI
+          </button>
+        </form>
+      </div>
+
+      <!-- Growth Report Card -->
+      <div class="card report-card">
+        <div class="report-box" id="reportBox">
+          <div class="empty-state">
+            <div class="chart-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <p>Your custom Digital Growth Report will appear here — gaps, website plan and a 90-day marketing roadmap.</p>
+          </div>
+        </div>
+
+        <div class="report-actions">
+          <a href="https://wa.me/919999999999" target="_blank" class="btn btn-secondary">Talk on WhatsApp</a>
+          <button type="button" class="btn btn-outline" id="saveLeadBtn">Save Lead</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!---------------pricing--------------->
+  <section id="pricing">
+  <div class="container">
+    <div class="section-title">
+      <h2>Transparent Pricing</h2>
+      <p>Choose the right plan to scale your local business online. No hidden fees.</p>
+    </div>
+
+    <div class="pricing-grid">
+      <!-- Basic Card -->
+      <div class="card pricing-card">
+        <div class="card-header">
+          <h3>Basic</h3>
+          <span class="plan-subtitle">Get found online, fast.</span>
+        </div>
+
+        <div class="pricing-rates">
+          <div class="rate-box">
+            <span>Website development</span>
+            <strong>₹15,000 one-time</strong>
+          </div>
+          <div class="rate-box highlight-green">
+            <span>Digital marketing</span>
+            <strong>₹8,000 / month</strong>
+          </div>
+        </div>
+
+        <div class="pricing-group">
+          <h4 class="group-title">WEBSITE INCLUDES</h4>
+          <ul class="pricing-features">
+            <li><i class="fa-solid fa-check"></i> 5-page mobile-first website <i class="fa-regular fa-circle-question info-icon"></i></li>
+            <li><i class="fa-solid fa-check"></i> WhatsApp enquiry button <i class="fa-regular fa-circle-question info-icon"></i></li>
+            <li><i class="fa-solid fa-check"></i> Google Business setup <i class="fa-regular fa-circle-question info-icon"></i></li>
+          </ul>
+        </div>
+
+        <div class="pricing-group">
+          <h4 class="group-title">MARKETING INCLUDES</h4>
+          <ul class="pricing-features">
+            <li><i class="fa-solid fa-check"></i> 8 posts / month <i class="fa-regular fa-circle-question info-icon"></i></li>
+            <li><i class="fa-solid fa-check"></i> Local SEO basics <i class="fa-regular fa-circle-question info-icon"></i></li>
+          </ul>
+        </div>
+
+        <a href="https://wa.me/919876543210?text=I'm%20interested%20in%20Basic%20Plan" target="_blank" class="btn btn-outline">Talk about Basic</a>
+      </div>
+
+      <!-- Growth Card (Most Chosen) -->
+      <div class="card pricing-card popular">
+        <span class="popular-badge"><i class="fa-solid fa-wand-magic-sparkles"></i> Most chosen</span>
+        <div class="card-header">
+          <h3>Growth</h3>
+          <span class="plan-subtitle">For shops ready to scale sales.</span>
+        </div>
+
+        <div class="pricing-rates">
+          <div class="rate-box">
+            <span>Website development</span>
+            <strong>₹35,000 one-time</strong>
+          </div>
+          <div class="rate-box highlight-green">
+            <span>Digital marketing</span>
+            <strong>₹20,000 / month</strong>
+          </div>
+        </div>
+
+        <div class="pricing-group">
+          <h4 class="group-title">WEBSITE INCLUDES</h4>
+          <ul class="pricing-features">
+            <li><i class="fa-solid fa-check"></i> Full catalog with categories <i class="fa-regular fa-circle-question info-icon"></i></li>
+            <li><i class="fa-solid fa-check"></i> Lead capture + admin panel <i class="fa-regular fa-circle-question info-icon"></i></li>
+            <li><i class="fa-solid fa-check"></i> Reviews & trust pages <i class="fa-regular fa-circle-question info-icon"></i></li>
+          </ul>
+        </div>
+
+        <div class="pricing-group">
+          <h4 class="group-title">MARKETING INCLUDES</h4>
+          <ul class="pricing-features">
+            <li><i class="fa-solid fa-check"></i> 16 posts + 8 reels / month <i class="fa-regular fa-circle-question info-icon"></i></li>
+            <li><i class="fa-solid fa-check"></i> Managed Instagram & Google ads <i class="fa-regular fa-circle-question info-icon"></i></li>
+            <li><i class="fa-solid fa-check"></i> Monthly performance report <i class="fa-regular fa-circle-question info-icon"></i></li>
+          </ul>
+        </div>
+
+        <a href="https://wa.me/919876543210?text=I'm%20interested%20in%20Growth%20Plan" target="_blank" class="btn btn-primary">Talk about Growth</a>
+      </div>
+
+      <!-- Enterprise Card -->
+      <div class="card pricing-card">
+        <div class="card-header">
+          <h3>Enterprise</h3>
+          <span class="plan-subtitle">Multi-store & regional brands.</span>
+        </div>
+
+        <div class="pricing-rates">
+          <div class="rate-box">
+            <span>Website development</span>
+            <strong>₹80,000 one-time</strong>
+          </div>
+          <div class="rate-box highlight-green">
+            <span>Digital marketing</span>
+            <strong>₹50,000 / month</strong>
+          </div>
+        </div>
+
+        <div class="pricing-group">
+          <h4 class="group-title">WEBSITE INCLUDES</h4>
+          <ul class="pricing-features">
+            <li><i class="fa-solid fa-check"></i> E-commerce + payments <i class="fa-regular fa-circle-question info-icon"></i></li>
+            <li><i class="fa-solid fa-check"></i> Multi-store & inventory sync <i class="fa-regular fa-circle-question info-icon"></i></li>
+            <li><i class="fa-solid fa-check"></i> Custom AI catalog assistant <i class="fa-regular fa-circle-question info-icon"></i></li>
+          </ul>
+        </div>
+
+        <div class="pricing-group">
+          <h4 class="group-title">MARKETING INCLUDES</h4>
+          <ul class="pricing-features">
+            <li><i class="fa-solid fa-check"></i> Full-funnel paid campaigns <i class="fa-regular fa-circle-question info-icon"></i></li>
+            <li><i class="fa-solid fa-check"></i> Influencer & UGC program <i class="fa-regular fa-circle-question info-icon"></i></li>
+            <li><i class="fa-solid fa-check"></i> Dedicated growth manager <i class="fa-regular fa-circle-question info-icon"></i></li>
+          </ul>
+        </div>
+
+        <a href="https://wa.me/919876543210?text=I'm%20interested%20in%20Enterprise%20Plan" target="_blank" class="btn btn-outline">Talk about Enterprise</a>
+      </div>
+    </div>
+
+    <div class="pricing-note">
+      <i class="fa-solid fa-chart-line"></i>
+      <span>Average client recovers the website cost within 2–4 months of enquiry-driven sales.</span>
+    </div>
+  </div>
+</section>
+<!-------------------referral------------------------------------>
+
+   <section id="referral">
+  <div class="container">
+    <!-- Top Hero Header & Stats Grid -->
+     <h2>Referral Partner Program</h2>
+    <div class="referral-hero-grid">
+      <div class="referral-hero-text">
+        <h2>Earn <span>₹1,000</span> per successful sale.</h2>
+        <p>No educational qualification required. Open for all — students, shop staff, delivery partners, homemakers. Share, refer, get paid every Friday.</p>
+        <div class="hero-action-btns">
+          <a href="#contact" class="btn btn-gradient">Become a partner</a>
+          <a href="#services" class="btn btn-dark-outline">See what you'll be selling</a>
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-regular fa-user-group"></i></div>
+          <div class="stat-value">42</div>
+          <div class="stat-label">Total referrals</div>
+          <div class="stat-sub">Since you joined</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-regular fa-clock"></i></div>
+          <div class="stat-value">6</div>
+          <div class="stat-label">Pending approvals</div>
+          <div class="stat-sub">In 7-day window</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-regular fa-circle-dollar"></i></div>
+          <div class="stat-value">₹36,000</div>
+          <div class="stat-label">Total earnings</div>
+          <div class="stat-sub">Paid out via UPI</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Dashboard Grid -->
+    <div class="grid-2 referral-dashboard">
+      <!-- Recent Referrals Table Card -->
+      <div class="card dashboard-card">
+        <h3>Recent referrals</h3>
+        
+        <div class="table-responsive">
+          <table class="referral-table">
+            <thead>
+              <tr>
+                <th>SHOP</th>
+                <th>TYPE</th>
+                <th>STATUS</th>
+                <th>REWARD</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="shop-name">Lakshmi Silk House</td>
+                <td class="shop-type">Saree Shop</td>
+                <td><span class="status-badge status-paid">Paid</span></td>
+                <td class="reward-amount">₹1,000</td>
+              </tr>
+              <tr>
+                <td class="shop-name">Meera Boutique</td>
+                <td class="shop-type">Boutique</td>
+                <td><span class="status-badge status-pending">Pending</span></td>
+                <td class="reward-amount">₹1,000</td>
+              </tr>
+              <tr>
+                <td class="shop-name">SriRam Textiles</td>
+                <td class="shop-type">Retail Store</td>
+                <td><span class="status-badge status-paid">Paid</span></td>
+                <td class="reward-amount">₹1,000</td>
+              </tr>
+              <tr>
+                <td class="shop-name">Anika Fashion Hub</td>
+                <td class="shop-type">Boutique</td>
+                <td><span class="status-badge status-review">In review</span></td>
+                <td class="reward-amount">₹1,000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- AI Partner Assistant Card -->
+      <div class="card dashboard-card ai-assistant-card">
+        <div class="assistant-header">
+          <div class="assistant-avatar">
+            <i class="fa-solid fa-robot"></i>
+          </div>
+          <div>
+            <h3>AI Partner Assistant</h3>
+            <p>Always on, trained on our pitch playbook</p>
+          </div>
+        </div>
+
+        <div class="chat-intro-message">
+          Hi partner 👋 I'm your AI Partner Assistant. Ask me how to pitch, what to say, or when your reward lands. Tap a suggestion below to start.
+        </div>
+
+        <div class="chat-suggestions">
+          <button class="chip-btn">How do I pitch a local Saree shop?</button>
+          <button class="chip-btn">Explain the website benefits to a non-tech shopkeeper</button>
+          <button class="chip-btn">When will I get my ₹1,000 reward?</button>
+        </div>
+
+        <div class="chat-input-wrapper">
+          <input type="text" placeholder="Ask anything about referring shops..." />
+          <button class="send-btn" aria-label="Send Message"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!------------------------Competitor----------------------------------------->
+   <section id="competitor">
+  <div class="container">
+    <!-- Header Area -->
+    <div class="competitor-header-area">
+    
+      <div class="header-main-row">
+        <div>
+          <h2>Competitor & market trend tracker</h2>
+          <p>Your growth doesn't stop at launch. The AI watches your market daily and tells you the next move — before your competitor makes it.</p>
+        </div>
+        <div class="time-toggle-btns">
+          <button class="toggle-btn active" onclick="updateChartData('6M')">6M</button>
+          <button class="toggle-btn" onclick="updateChartData('12M')">12M</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Grid Layout -->
+    <div class="competitor-tracker-grid">
+      
+      <!-- Left Column: Dynamic Chart Cards -->
+      <div class="card chart-tracker-card">
+        <div class="chart-header">
+          <div>
+            <h3>Local visibility index</h3>
+            <span>You vs. nearest competitor</span>
+          </div>
+          <span class="growth-badge" id="growthBadge"><i class="fa-solid fa-arrow-up-right"></i> +49%</span>
+        </div>
+
+        <!-- Dynamic Line Chart Canvas -->
+        <div class="line-chart-container" style="position: relative; height: 220px; width: 100%;">
+          <canvas id="visibilityChart"></canvas>
+        </div>
+
+        <!-- Dynamic Bar Chart Canvas -->
+        <div class="bar-chart-section" style="margin-top: 30px;">
+          <h3>Enquiries by channel</h3>
+          <div class="bar-chart-container" style="position: relative; height: 160px; width: 100%;">
+            <canvas id="enquiriesChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: AI Live Insights Cards -->
+      <div class="tracker-alerts-column">
+        
+        <div class="card alert-card alert-orange">
+          <div class="alert-tag">
+            <i class="fa-brands fa-instagram"></i> COMPETITOR MOVE DETECTED
+          </div>
+          <h4>XYZ Saree Shop launched Instagram ads</h4>
+          <p>Running radius ads on bridal collections within 6km of your store since 4 days. Estimated spend ₹450/day.</p>
+          <div class="alert-action">
+            <i class="fa-regular fa-eye"></i> Counter with a bridal reel campaign + limited-time festival offer this week.
+          </div>
+        </div>
+
+        <div class="card alert-card alert-teal">
+          <div class="alert-tag">
+            <i class="fa-solid fa-wand-magic-sparkles"></i> TRENDING FEATURE RECOMMENDATION
+          </div>
+          <h4>Add virtual try-on / catalog feature</h4>
+          <p>Shops in your category adding a try-on catalog report up to a 25% lift in enquiry-to-sale conversion.</p>
+          <div class="alert-action">
+            <i class="fa-regular fa-eye"></i> Ship the catalog module in your next website sprint (2 weeks).
+          </div>
+        </div>
+
+        <div class="card alert-card alert-teal">
+          <div class="alert-tag">
+            <i class="fa-solid fa-chart-line"></i> MARKET TREND
+          </div>
+          <h4>'Soft silk saree' searches up 38% in your city</h4>
+          <p>Seasonal demand spike ahead of the wedding season. Search volume peaks in the next 3 weeks.</p>
+          <div class="alert-action">
+            <i class="fa-regular fa-eye"></i> Publish a soft-silk landing page and bid on the keyword before competitors do.
+          </div>
+        </div>
+
+        <div class="card alert-card alert-gold">
+          <div class="alert-tag">
+            <i class="fa-solid fa-shield-halved"></i> REPUTATION WATCH
+          </div>
+          <h4>2 unanswered Google reviews</h4>
+          <p>Unanswered reviews reduce click-through from map listings. Both are 4-star with pricing questions.</p>
+          <div class="alert-action">
+            <i class="fa-regular fa-eye"></i> Reply within 24 hours using the suggested response templates.
+          </div>
+        </div>
+
+        <a href="#contact" class="btn btn-tracker-cta">Get this tracker for my shop</a>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!---------------------------Contact------------------------------------------>
+  <section id="contact">
+  <div class="container">
+    <div class="section-title">
+      <h2>Get In Touch</h2>
+      <p>Connect with us instantly to kickstart your business's digital growth.</p>
+    </div>
+
+    <div class="contact-card-wrapper">
+      <div class="card contact-card">
+        <div class="contact-header">
+          <span class="active-badge">
+            <span class="pulse-dot"></span> Online & Ready to Help
+          </span>
+          <h3>Start Your Digital Growth Journey</h3>
+          <p>Have questions about pricing, referral programs, or custom websites? Reach out directly for quick assistance.</p>
+        </div>
+        <div class="contact-info-grid">
+          <div class="info-item">
+            <div class="info-icon">📲</div>
+            <div class="info-text">
+              <strong>WhatsApp & Call</strong>
+              <span>+91 8817111791</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">⚡</div>
+            <div class="info-text">
+              <strong>Response Time</strong>
+              <span>Within 15 minutes</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-action">
+          <a href="https://wa.me/919876543210?text=Hi,%20I%20want%20to%20know%20more%20about%20your%20services" target="_blank" class="btn btn-whatsapp">
+            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+
+
+<a href="https://wa.me/919876543210?text=Hi,%20I%20want%20to%20know%20more%20about%20your%20services" 
+   class="whatsapp-float" 
+   target="_blank" 
+   rel="noopener noreferrer" 
+   aria-label="Chat on WhatsApp">
+   <i class="fa-brands fa-whatsapp"></i>
+   <span class="whatsapp-text">Chat with us</span>
+</a>
+
+
+<!----------------------Footer--------------------------->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+    
+      <div class="footer-brand">
+        <a href="#" class="footer-logo">BizGrowth <span>.AI</span></a>
+        <p>Empowering local businesses with high-converting websites, AI tools, and referral partner networks.</p>
+        
+   
+        <div class="social-links">
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://wa.me/919876543210" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#pricing">Pricing</a>
+        <a href="#referral">Referral Program</a>
+        <a href="#competitor">Analysis</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 AI-Driven Digital Growth Platform. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="./secret.js"></script>
+<script src="script.js" ></script>
+</body>
+</html>
